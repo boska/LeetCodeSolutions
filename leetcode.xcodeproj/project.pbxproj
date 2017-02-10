@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D56367E1E4D8702004A8056 /* MaxiumFourDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56367D1E4D8702004A8056 /* MaxiumFourDigits.swift */; };
+		8D5636801E4D8E1A004A8056 /* DecimalReprZip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56367F1E4D8E1A004A8056 /* DecimalReprZip.swift */; };
 		8D60CDCC1E40603F002BB745 /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D60CDCB1E40603F002BB745 /* 1.swift */; };
 		8D60CDD71E40610E002BB745 /* 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D60CDD61E40610E002BB745 /* 2.swift */; };
 		8D60CDD91E406186002BB745 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D60CDD81E406186002BB745 /* ListNode.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		8D56367D1E4D8702004A8056 /* MaxiumFourDigits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxiumFourDigits.swift; sourceTree = "<group>"; };
+		8D56367F1E4D8E1A004A8056 /* DecimalReprZip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalReprZip.swift; sourceTree = "<group>"; };
 		8D60CDC71E40603F002BB745 /* leetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D60CDCB1E40603F002BB745 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
 		8D60CDCD1E40603F002BB745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				8DFAD4001E40C8D700499F57 /* 104.swift */,
 				8D7A900D1E43883A00736031 /* 217.swift */,
 				8D56367D1E4D8702004A8056 /* MaxiumFourDigits.swift */,
+				8D56367F1E4D8E1A004A8056 /* DecimalReprZip.swift */,
 				8D60CDCD1E40603F002BB745 /* Info.plist */,
 				8D60CDD81E406186002BB745 /* ListNode.swift */,
 				8DFAD3FC1E407DA500499F57 /* TreeNode.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				8D60CDD71E40610E002BB745 /* 2.swift in Sources */,
 				8D56367E1E4D8702004A8056 /* MaxiumFourDigits.swift in Sources */,
+				8D5636801E4D8E1A004A8056 /* DecimalReprZip.swift in Sources */,
 				8DFAD3FF1E407F0C00499F57 /* 258.swift in Sources */,
 				8D60CDDB1E4076D2002BB745 /* 100.swift in Sources */,
 				8D60CDCC1E40603F002BB745 /* 1.swift in Sources */,
