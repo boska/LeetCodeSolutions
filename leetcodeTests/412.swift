@@ -10,15 +10,18 @@ import XCTest
 func fizzBuzz(_ n: Int) -> [String] {
   var result: [String] = []
   for index in 1...n {
-    if index % 15 == 0 {
-      result.append("FizzBuzz") }
-    else if index % 3 == 0 {
-      result.append("Fizz") }
-    else if index % 5 == 0 {
-      result.append("Buzz") }
-    else {
-      result.append("\(index)")
+    var str = ""
+    if index % 3 == 0 {
+      str += "Fizz"
     }
+    if index % 5 == 0 {
+      str += "Buzz"
+    }
+    if str.isEmpty {
+      str = "\(index)"
+    }
+    result.append(str)
+    
   }
   return result
 }
