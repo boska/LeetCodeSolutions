@@ -8,10 +8,10 @@
 
 import XCTest
 func addDigits(_ num: Int) -> Int {
-  if String(num).characters.count == 1 {
+  if String(num).count == 1 {
     return num
   } else {
-    return addDigits(Int(String(num).characters.map { Int(String($0)) ?? 0 }.reduce(0) { $0 + $1 }))
+    return addDigits(Int(String(num).map { Int(String($0)) ?? 0 }.reduce(0) { $0 + $1 }))
   }
 }
 class addDigitsTests: XCTestCase {
